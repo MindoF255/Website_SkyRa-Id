@@ -1,0 +1,173 @@
+/* Induk */
+
+html, body {
+  background-image: url(Aset/Lb6.jpg);
+  background-size: 1px;
+  background-repeat: none;
+  background-position: center;
+  scroll-behavior: smooth;
+}
+
+/* Item Tambahan */
+
+p.Xintax {
+  text-align: center;
+  text-shadow: 0px 0px 7px #fff;
+  font-weight: bolder;
+}
+
+/* Kembali */
+
+.Gerakan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Gerakan p a {
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px dashed black;
+}
+
+.Gerakan p.Pyro {
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+/* Top Up Menu */
+
+.Pulsa {
+  background: rgb(35,175,117);
+  background: linear-gradient(45deg, rgba(35,175,117,1) 31%, rgba(254,255,254,1) 100%);
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2px;
+  border: 2px solid black;
+}
+
+.Pulsa input, select {
+  background-color: #fff;
+}
+
+.Pulsa label {
+  font-weight: bold;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+/* Konten */
+
+.mainmenu {
+  border: 2px solid black;
+  padding: 10px;
+  height: 320px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  background: #B0C4E2;
+  background: linear-gradient(45deg, #B0C4E2, #26C386);
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.rank {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.mainmenu button {
+  background-color: cyan;
+}
+
+.mainmenu a {
+  text-decoration: none;
+  color: red;
+}
+
+.mainmenu a:hover {
+  color: cyan;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.mainmenu button:hover {
+  background-color: red;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+  display: flex;
+  margin-top: 7px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Saya {
+  width: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  background: rgb(27,135,152);
+background: linear-gradient(315deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-right: 2px;
+  border: 2px solid white;
+}
+
+.Aku {
+  width: 50%;
+  text-align: center;
+  background: rgb(27,135,152);
+background: linear-gradient(45deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-left: 2px;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}
+.Aku a {
+  text-decoration: none;
+  color: white;
+}
+
+.Aku a:hover {
+  color: green;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.copyright {
+  text-align: center;
+  background: rgb(27,135,152);
+background: linear-gradient(180deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}
+
+/* Tombol */
+
+.Tombol {
+  padding: 7px;
+  margin-top: 7px;
+  margin-left: 80%;
+}
+
+.Tombol button {
+  background-color: cyan;
+}
+
+.Tombol button:hover {
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s;
+  font-size: 17px;
+}

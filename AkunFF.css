@@ -1,0 +1,139 @@
+/* Induk */
+
+html, body {
+  background-image: url(Aset/Lb6.jpg);
+  background-size: 1px;
+  background-repeat: none;
+  background-position: center;
+  scroll-behavior: smooth;
+}
+
+div.Enter img {
+  width: 100%;
+  display: flex;
+  margin: 2px;
+  border: 2px solid white;
+}
+
+div.Enter {
+  border: 4px solid black;
+  overflow: scroll;
+  height: 190px;
+  display: flex;
+}
+
+/* Kembali */
+
+.Gerakan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Gerakan p a {
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px dashed black;
+}
+
+.Gerakan p.Pyro {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 7px;
+  font-weight: bold;
+}
+
+/* Konten */
+
+.ilham {
+  text-align: center;
+  text-shadow: 0px 0px 5px white;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 7px;
+  margin-left: 80%;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn a:hover {
+  color: white;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.dimas {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+  display: flex;
+  margin-top: 7px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Saya {
+  width: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  background: rgb(27,135,152);
+background: linear-gradient(315deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-right: 2px;
+  border: 2px solid white;
+}
+
+.Aku {
+  width: 50%;
+  text-align: center;
+  background: rgb(27,135,152);
+background: linear-gradient(45deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-left: 2px;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}
+.Aku a {
+  text-decoration: none;
+  color: white;
+}
+
+.Aku a:hover {
+  color: green;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.copyright {
+  text-align: center;
+  background: rgb(27,135,152);
+background: linear-gradient(180deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}

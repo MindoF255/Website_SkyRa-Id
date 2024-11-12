@@ -1,0 +1,355 @@
+html, body {
+  background-image: url(Aset/Lb6.jpg);
+  background-size: 1px;
+  background-repeat: none;
+  background-position: center;
+  scroll-behavior: smooth;
+  text-shadow: 0px 0px 7px white;
+}
+
+/*Navigation*/
+
+.fContainer {
+  display: flex;
+  width: 96.5%;
+  background-color: white;
+  position: fixed;
+  overflow: auto;
+  z-index: 7;
+  border-radius: 10px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  padding: 15px;
+  font-size: 15px;
+  justify-content: space-between;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 500;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.firstname {
+  color: cyan;
+  font-weight: 700;
+}
+
+.lastname {
+  color: white;
+  padding-left: 2px; 
+  font-weight: 400;
+}
+
+.navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation>li {
+  list-style-type: none;
+  padding: 7px;
+}
+
+.navigation>li>a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+  color: skyblue;
+  transition: all .3s ease-in-out;
+}
+
+.active {
+  background-color: skyblue;
+  color: white;
+  padding: 7px;
+}
+
+.active:hover {
+  color: white !important;
+}
+
+/*Link Navigation*/
+
+.content {
+  z-index: 1;
+  margin-top: 50px;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,220,255,1) 100%);
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  border: 2px solid black;
+}
+
+.content h2, .content ul li {
+  text-shadow: 3px 3px 7px gray;
+}
+
+/*Cards*/
+
+.cards {
+  display: flex;
+  margin-top: 10px;
+}
+
+.card-content1 {
+  z-index: 2;
+  width: 70%;
+  position: relative;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,220,255,1) 100%);
+  border-radius: 6px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.card-content2 {
+  z-index: 3;
+  width: 70%;
+  position: relative;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,220,255,1) 100%);
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+  border: 2px solid black;
+}
+
+.card-content3 {
+  z-index: 4;
+  width: 70%;
+  position: relative;
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,220,255,1) 100%);
+  border-radius: 6px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  text-decoration: none;
+  margin-bottom: 7px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: cyan;
+  color: black;
+}
+
+/*Collab*/
+
+.colab {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,220,255,1) 100%);
+  background-position: center;
+  padding-top: 1px;
+  padding-left: 7px;
+  padding-bottom: 1px;
+  margin-top: 7px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.wp {
+  margin-top: 7px;
+  display: flex;
+}
+
+.tkp {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,220,255,1) 100%);
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-left: 3px;
+  margin-top: 7px;
+  padding-bottom: 1px;
+  text-shadow: 3px 3px 7px gray;
+  border: 2px solid black;
+}
+
+.tkp ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#RAGA {
+  text-shadow: 3px 3px 7px gray;
+}
+
+.carcon h3 {
+  text-shadow: 3px 3px 7px gray;
+}
+
+.content ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.content ul li a:hover {
+  color: cyan;
+  text-shadow: 3px 3px 7px black;
+  transition: 0.3s;
+}
+
+.raja {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 7px;
+  border: 2px solid black;
+}
+
+.raja p {
+  margin-top: 25%;
+}
+
+/*Navigation 2.0*/
+
+.Kita {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  margin-top: 7px;
+  border-radius: 10px;
+}
+.Barang {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  padding: 15px;
+  font-size: 15px;
+  justify-content: space-between;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.Benda {
+  display: flex;
+  flex-direction: row;
+  font-size: 500;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.Kapan {
+  color: #d4dc1f;
+  font-weight: 700;
+}
+
+.Kemana {
+  color: white;
+  padding-left: 2px;
+  font-weight: 400;
+}
+
+.Kami {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Kami>li {
+  list-style-type: none;
+  padding: 7px;
+}
+
+.Kami>li>a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.Kami>li>a:hover {
+  color: yellow; 
+  transition: all .3s ease-in-out;
+}
+
+.Kamu {
+  background-color: #d4dc1f;
+  color: black;
+  padding: 7px;
+}
+
+.Kamu:hover {
+  color: black !important;
+}
+
+/*Footer*/
+
+footer {
+  color: white;
+  display: flex;
+  margin-top: 7px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Saya {
+  width: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  background: rgb(27,135,152);
+  background: linear-gradient(315deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-right: 2px;
+  border: 2px solid white;
+}
+
+.Aku {
+  width: 50%;
+  text-align: center;
+  background: rgb(27,135,152);
+  background: linear-gradient(45deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-left: 2px;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}
+.Aku a {
+  text-decoration: none;
+  color: white;
+}
+
+.Aku a:hover {
+  color: green;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.copyright {
+  text-align: center;
+  background: rgb(27,135,152);
+  background: linear-gradient(180deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}
+
+textarea {
+  width: 100%;
+  background-color: white;
+}

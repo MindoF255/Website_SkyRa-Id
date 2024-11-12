@@ -1,0 +1,174 @@
+/* Induk */
+
+html, body {
+  background-image: url(Aset/Lb6.jpg);
+  background-size: 1px;
+  background-repeat: none;
+  background-position: center;
+  scroll-behavior: smooth;
+}
+
+/* Kembali */
+
+.Gerakan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Gerakan p a {
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px dashed black;
+}
+
+.Gerakan p.Pyro {
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+/* Bagian */
+
+.Bagian {
+  justify-items: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: rgb(253, 255, 95);
+  background: linear-gradient(0deg, rgba(253, 255, 95, 1) 0% rgba(255, 248, 248, 1) 90%);
+}
+
+.Bagian input, select {
+  background-color: #fff;
+}
+
+.Bagian label {
+  font-weight: bold;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.Dimas h1 {
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+
+.Dimas p {
+  text-align: center;
+}
+
+/* Konten */
+
+.Karangan {
+  border: 2px solid black;
+  padding: 10px;
+  height: 320px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  background: rgb(253, 255, 95);
+  background: linear-gradient(0deg, rgba(253, 255, 95, 1) 0% rgba(255, 248, 248, 1) 90%);
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.pangkat {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.Karangan button {
+  background-color: cyan;
+}
+
+.Karangan a {
+  text-decoration: none;
+  color: red;
+}
+
+.Karangan a:hover {
+  color: cyan;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.Karangan button:hover {
+  background-color: red;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+  display: flex;
+  margin-top: 7px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Saya {
+  width: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  background: rgb(27,135,152);
+background: linear-gradient(315deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-right: 2px;
+  border: 2px solid white;
+}
+
+.Aku {
+  width: 50%;
+  text-align: center;
+  background: rgb(27,135,152);
+background: linear-gradient(45deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 10px;
+  margin-left: 2px;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}
+.Aku a {
+  text-decoration: none;
+  color: white;
+}
+
+.Aku a:hover {
+  color: green;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.copyright {
+  text-align: center;
+  background: rgb(27,135,152);
+background: linear-gradient(180deg, rgba(27,135,152,1) 50%, rgba(255,255,255,1) 100%);
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  border: 2px solid white;
+}
+
+/* Tombol */
+
+.Tombol {
+  padding: 7px;
+  margin-top: 7px;
+  margin-left: 80%;
+}
+
+.Tombol button {
+  background-color: cyan;
+}
+
+.Tombol button:hover {
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s;
+  font-size: 17px;
+}
